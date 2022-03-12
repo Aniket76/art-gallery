@@ -13,11 +13,17 @@ class Uploads extends StatelessWidget {
       'assets/upload_page/img_(4).jpeg',
       'assets/upload_page/img_(5).jpeg',
       'assets/upload_page/img_(6).jpeg',
+      'assets/upload_page/img_(1).jpeg',
+      'assets/upload_page/img_(2).jpeg',
+      'assets/upload_page/img_(3).jpeg',
+      'assets/upload_page/img_(4).jpeg',
+      'assets/upload_page/img_(5).jpeg',
+      'assets/upload_page/img_(6).jpeg',
     ];
 
     return Scaffold(
         body: Padding(
-      padding: const EdgeInsets.only(left: 15, right: 15, top: 30,),
+      padding: const EdgeInsets.all(15),
 
       child: GridView.builder(
         shrinkWrap: true,
